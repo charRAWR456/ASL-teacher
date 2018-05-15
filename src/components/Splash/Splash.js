@@ -1,10 +1,12 @@
 import React from 'react';
-import LoveImg from '../assets/love.jpeg';
+import classes from './Splash.css';
 
-const splash = () =>{
+const splash = (props) =>{
   return(
-    <div>
-      <img src={LoveImg}>
+    <div className={classes.Splash}>
+      <h1>hi</h1>
     </div>
   )
 }
+
+export default splash;
